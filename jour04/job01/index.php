@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src=script.js async="async"></script>
 </head>
 <body>
-<p id="compteur">0</p>
-<button id="btn">Click Me</button>
+    <div id="expression"></div>
+    <button id="button">recup</button>
+    <script src="script.js"></script>
 </body>
 </html>
-
