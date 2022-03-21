@@ -1,0 +1,56 @@
+/*@media screen and (min-width: 768) and (max-width: 1599) {*/
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+    
+    }
+    
+    .section { 
+        background:#88c1d0;
+        height: 100px;
+        width: 150px;
+        margin: 20px;
+        padding: 20px;
+    }
+
+
+
+@media screen and (max-width: 767px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .section { 
+        background:#88c1d0;
+        height: 100px;
+        width: 150px;
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+
+
+    
+@media screen and (min-width: 1600px) {
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        width: 1600px;
+    
+    }
+    
+    .section { 
+        background:#88c1d0;
+        height: 100px;
+        width: 150px;
+        margin: 20px;
+        padding: 20px;
+    }
+    }
+        
